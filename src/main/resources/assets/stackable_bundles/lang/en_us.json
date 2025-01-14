@@ -1,0 +1,4 @@
+{
+  "text.config.bundles-config.option.slotSize": "Slot Size",
+  "text.config.bundles-config.option.slotSize.tooltip": "The amount of slots an unstackable item takes up."
+}

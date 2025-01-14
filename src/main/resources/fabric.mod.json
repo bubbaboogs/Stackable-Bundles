@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "stackable_bundles",
+  "version": "${version}",
+  "name": "Stackable Bundles",
+  "description": "A mod that allows you to stack unstackable items in bundles.",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/stackable_bundles/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.bubbaboogs.stackable_bundles.Stackable_bundles"
+    ]
+  },
+  "mixins": [
+    "stackable_bundles.mixins.json",
+    {
+      "config": "stackable_bundles.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

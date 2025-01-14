@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.bubbaboogs.stackable_bundles.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BundleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
